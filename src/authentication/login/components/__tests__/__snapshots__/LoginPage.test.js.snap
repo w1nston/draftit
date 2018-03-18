@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage renders 1`] = `
+<React.Fragment>
+  <h2>
+    Login
+  </h2>
+  <form
+    className="css-1iyoj2o"
+    method="POST"
+    onSubmit={[Function]}
+  >
+    <label
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="css-1dn81gn"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email"
+      type="email"
+      value=""
+    />
+    <label
+      htmlFor="password"
+    >
+      Password
+    </label>
+    <input
+      className="css-1dn81gn"
+      name="password"
+      onChange={[Function]}
+      placeholder="Password"
+      type="password"
+      value=""
+    />
+    <button
+      className="css-1yrgme5"
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</React.Fragment>
+`;
