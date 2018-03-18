@@ -2,7 +2,6 @@
   "name": "draftit",
   "version": "0.1.0",
   "description": "Super simple CMS with React and Firebase.",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/w1nston/draftit.git"
