@@ -1,11 +1,11 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import App from '../App';
+import NavBar from '../NavBar';
 
-describe('App', () => {
-  it('renders a Router', () => {
-    const component = shallow(<App />);
+describe('NavBar', () => {
+  it('renders', () => {
+    const component = shallow(<NavBar />);
     expect(toJson(component)).toMatchSnapshot();
   });
 });

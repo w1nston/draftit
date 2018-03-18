@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar renders 1`] = `
+<React.Fragment>
+  <nav
+    className="css-1sulisw"
+  >
+    <Link
+      replace={false}
+      to="/"
+    >
+      Posts
+    </Link>
+    <Link
+      replace={false}
+      to="/new"
+    >
+      New post
+    </Link>
+    <Link
+      replace={false}
+      to="/logout"
+    >
+      Logout
+    </Link>
+  </nav>
+  <hr />
+</React.Fragment>
+`;
