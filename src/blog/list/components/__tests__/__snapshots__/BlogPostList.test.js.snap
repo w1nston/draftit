@@ -1,0 +1,134 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPostList renders with blog posts 1`] = `
+<table
+  className="css-1i2v0m9"
+>
+  <thead>
+    <tr
+      className="css-19ma4in"
+    >
+      <th
+        className="css-om3ifv"
+      >
+        Title
+      </th>
+      <th
+        className="css-om3ifv"
+      >
+        Created At
+      </th>
+      <th
+        className="css-om3ifv"
+      >
+        Updated At
+      </th>
+      <th
+        className="css-om3ifv"
+      >
+        Published At
+      </th>
+      <th
+        className="css-om3ifv"
+      />
+    </tr>
+  </thead>
+  <tbody>
+    <tr
+      className="css-108yoyb"
+      key="Title"
+    >
+      <td
+        className="css-1djw1qp"
+      >
+        Title
+      </td>
+      <td
+        className="css-1qznyyb"
+      >
+        <React.Fragment>
+          —
+        </React.Fragment>
+      </td>
+      <td
+        className="css-1qznyyb"
+      >
+        <React.Fragment>
+          —
+        </React.Fragment>
+      </td>
+      <td
+        className="css-1qznyyb"
+      >
+        <React.Fragment>
+          —
+        </React.Fragment>
+      </td>
+      <td
+        className="css-1djw1qp"
+      >
+        Edit |
+         
+        <Link
+          replace={false}
+          to="/preview/Title"
+        >
+          Show
+        </Link>
+         
+        | 
+        <button
+          className="css-1h5x3dy"
+        >
+          Publish
+        </button>
+         |
+         
+        <button
+          className="css-1h5x3dy"
+          onClick={[Function]}
+        >
+          Delete
+        </button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`BlogPostList renders with no blog posts 1`] = `
+<table
+  className="css-1i2v0m9"
+>
+  <thead>
+    <tr
+      className="css-19ma4in"
+    >
+      <th
+        className="css-om3ifv"
+      >
+        Title
+      </th>
+      <th
+        className="css-om3ifv"
+      >
+        Created At
+      </th>
+      <th
+        className="css-om3ifv"
+      >
+        Updated At
+      </th>
+      <th
+        className="css-om3ifv"
+      >
+        Published At
+      </th>
+      <th
+        className="css-om3ifv"
+      />
+    </tr>
+  </thead>
+  <tbody />
+</table>
+`;
