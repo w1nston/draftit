@@ -7,5 +7,8 @@ exports[`Content renders 1`] = `
     path="/login"
     render={[Function]}
   />
+  <Route
+    component={[Function]}
+  />
 </Switch>
 `;
