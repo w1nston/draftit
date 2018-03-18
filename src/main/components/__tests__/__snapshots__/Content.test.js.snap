@@ -1,3 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Content renders 1`] = `""`;
+exports[`Content renders 1`] = `
+<Switch>
+  <Route
+    exact={true}
+    path="/login"
+    render={[Function]}
+  />
+</Switch>
+`;
