@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPostForm renders 1`] = `
+<form
+  className="css-1iyoj2o"
+  onSubmit={[Function]}
+>
+  <h1>
+    Insert thoughts here...
+  </h1>
+  <div
+    className="css-kpu76b"
+  >
+    <label
+      htmlFor="title"
+    >
+      Title
+    </label>
+    <input
+      className="css-38trz7"
+      name="title"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="css-kpu76b"
+  >
+    <label
+      htmlFor="content"
+    >
+      Content
+    </label>
+    <Quill
+      modules={
+        Object {
+          "toolbar": Array [
+            Array [
+              "bold",
+              "italic",
+              "underline",
+              "strike",
+            ],
+            Array [
+              "blockquote",
+              "code-block",
+            ],
+            Array [
+              Object {
+                "header": 1,
+              },
+              Object {
+                "header": 2,
+              },
+            ],
+            Array [
+              Object {
+                "list": "ordered",
+              },
+              Object {
+                "list": "bullet",
+              },
+            ],
+            Array [
+              Object {
+                "script": "sub",
+              },
+              Object {
+                "script": "super",
+              },
+            ],
+            Array [
+              Object {
+                "indent": "-1",
+              },
+              Object {
+                "indent": "+1",
+              },
+            ],
+            Array [
+              Object {
+                "direction": "rtl",
+              },
+            ],
+            Array [
+              Object {
+                "size": Array [
+                  "small",
+                  false,
+                  "large",
+                  "huge",
+                ],
+              },
+            ],
+            Array [
+              Object {
+                "header": Array [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  false,
+                ],
+              },
+            ],
+            Array [
+              Object {
+                "color": Array [],
+              },
+              Object {
+                "background": Array [],
+              },
+            ],
+            Array [
+              Object {
+                "font": Array [],
+              },
+            ],
+            Array [
+              Object {
+                "align": Array [],
+              },
+            ],
+            Array [
+              "clean",
+            ],
+          ],
+        }
+      }
+      name="content"
+      onChange={[Function]}
+      placeholder="Start typing here..."
+      theme="snow"
+      value=""
+    />
+  </div>
+  <div
+    className="css-55tkac"
+  >
+    <button
+      className="css-1pcrr5b"
+      type="submit"
+    >
+      Create
+    </button>
+  </div>
+</form>
+`;

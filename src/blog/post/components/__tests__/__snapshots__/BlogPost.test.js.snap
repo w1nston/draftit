@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BlogPost renders 1`] = `
+<React.Fragment>
+  <h2>
+    Title
+  </h2>
+  <div>
+    TODO: Add content...
+  </div>
+</React.Fragment>
+`;
